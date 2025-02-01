@@ -90,7 +90,7 @@ recognition.onresult = function(event) {
 
 
 function draw(command){
-  Rng = Math.floor(Math.random());
+  Rng = Math.floor(Math.random()*10);
   x = 0;
   y = 0;
   if(command == "apple")
